@@ -1,0 +1,1 @@
+sendemail -xu mail.gmail.com -xp token -s smtp-relay.sendinblue.com:587 -f "john.smith@gmail.com" -t "johnsmith@gmail.com" -u "Check out my project" -m "Hi I am John, Nice to meet you" -o message-header="From: John Smith <john.smith@gmail.com>"
